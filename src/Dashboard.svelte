@@ -46,11 +46,13 @@ const code = {
   4: "rinkeby.",
   1: "",
   5: "goerli.",
+  11155111: "sepolia.",
 }
 const current_net = {
   4: "rinkeby",
   1: "mainnet",
   5: "goerli",
+  11155111: "sepolia",
 }
 const opensea = {
   4: "https://testnets.opensea.io",
