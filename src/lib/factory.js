@@ -363,6 +363,10 @@ const addresses = {
     goerli: {
       factory: "0x45368836342D6544f98FF4bA0A136C0508E3ac90",
       royalty: "0xB8F3bC8998c13c4428d72c8b507257C7396772E0"
+    },
+    sepolia: {
+      factory: "0x5b35121E32849438A47803F30f985293E64F41Ba",
+      royalty: "0x167bF3Ad538e1b3E3022Af309f1892F8a0514131"
     }
   }
 }
@@ -370,6 +374,7 @@ const code = {
   4: "rinkeby",
   1: "mainnet",
   5: "goerli",
+  11155111: "sepolia",
 }
 export let factory = async (web3, version) => {
   let chainId = await web3.eth.getChainId();
